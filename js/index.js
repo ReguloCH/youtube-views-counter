@@ -1,4 +1,3 @@
-// index.js
 $(document).ready(() => {
   let countQ = 0;
   let countW = 0;
