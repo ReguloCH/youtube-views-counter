@@ -143,12 +143,30 @@
           <p class="fw-bold">La página es una recreación de Youtube, en donde puedes controlar las visualizaciones, likes, dislikes y los suscriptores del canal.</p>
           <p>Para hacerlo debes presionar la tecla correspondiente a cada función y luego hacer scroll con tu mouse para aumentar o disminuir la cantidad.</p>
 
-          <div class="d-flex flex-column flex-wrap my-2">
-            <button class="btn btn-primary">Q = SUSCRIPTORES</button>
-            <button class="btn btn-success">W = LIKES</button>
-            <button class="btn btn-danger">E = DISLIKES</button>
-            <button class="btn btn-warning">R = VISUALIZACIONES</button>
+          <div class="stats-container d-flex justify-content-center gap-4 mt-4">
+            <div class="stat-box text-center p-3 rounded shadow">
+              <span class="material-symbols-outlined text-danger" style="font-size: 2rem;">group</span>
+              <p class="fw-bold text-white mt-2"><span class="subs">0</span> Subs</p>
+              <small class="text-secondary">Presiona <b>Q</b> para modificar</small>
+            </div>
+            <div class="stat-box text-center p-3 rounded shadow">
+              <span class="material-symbols-outlined text-success" style="font-size: 2rem;">thumb_up</span>
+              <p class="fw-bold text-white mt-2"><span class="likes">0</span> Likes</p>
+              <small class="text-secondary">Presiona <b>W</b> para modificar</small>
+            </div>
+            <div class="stat-box text-center p-3 rounded shadow">
+              <span class="material-symbols-outlined text-warning" style="font-size: 2rem;">thumb_down</span>
+              <p class="fw-bold text-white mt-2"><span class="dislikes">0</span> Dislikes</p>
+              <small class="text-secondary">Presiona <b>E</b> para modificar</small>
+            </div>
+            <div class="stat-box text-center p-3 rounded shadow">
+              <span class="material-symbols-outlined text-info" style="font-size: 2rem;">visibility</span>
+              <p class="fw-bold text-white mt-2"><span class="views">0</span> Vistas</p>
+              <small class="text-secondary">Presiona <b>R</b> para modificar</small>
+            </div>
           </div>
+          
+          
 
           <span class="fw-bold fs-5">Ingresa los valores de la página:</span>
           <form class="was-validated">
